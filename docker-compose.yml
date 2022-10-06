@@ -8,6 +8,8 @@ services:
       bash -c "
         python manage.py makemigrations &&
         python manage.py migrate &&
+        python manage.py seed_reticules &&
+        python manage.py seed_subjects &&
         python manage.py runserver 0.0.0.0:8080
       "
     depends_on:
