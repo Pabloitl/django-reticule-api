@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+djangorestframework = "*"
+
+[dev-packages]
+rope = "*"
+black = "*"
+django-stubs = "*"
+djangorestframework-stubs = "*"
+pynvim = "*"
+
+[requires]
+python_version = "3.10"
